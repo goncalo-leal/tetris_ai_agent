@@ -1,0 +1,105 @@
+127
+227
+168
+130
+108
+181
+145
+272
+271
+171
+
+avg: 180.0
+
+holes_weight = -0.35663 # original: -0.35663
+aggregate_height_weight = -0.510066 # original: -0.510066
+completed_lines_weight = 0.660666 # original: -0.760666
+bumpiness_weight = -0.184483 # original: -0.184483
+current_height_weight = 0 # -0.25
+valleys_weight = -0 # 0
+
+if current_height > 10: # 20
+    completed_lines_weight = 4 # 4
+    aggregate_height_weight = -0.710066
+    bumpiness_weight = -0.284483
+    holes_weight = -0.25054
+    valleys_weight = -0.15 # -0.15
+
+------------------------
+265
+166
+227
+126
+216
+118
+216
+246
+166
+144
+
+avg: 189.0
+
+holes_weight = -0.35663 # original: -0.35663
+aggregate_height_weight = -0.510066 # original: -0.510066
+completed_lines_weight = 0.660666 # original: -0.760666
+bumpiness_weight = -0.184483 # original: -0.184483
+current_height_weight = 0 # -0.25
+valleys_weight = -0 # 0
+
+if current_height > 15: # 20
+    completed_lines_weight = 4 # 4
+    aggregate_height_weight = -0.710066
+    bumpiness_weight = -0.284483
+    holes_weight = -0.25054
+    valleys_weight = 0 # -0.15
+
+------------------------
+253
+179
+201
+238
+230
+124
+229
+200
+180
+152
+
+avg: 198.6
+
+183
+163
+124
+240
+213
+111
+169
+129
+172
+125
+
+avg: 162.9
+
+holes_weight = -0.35663 # original: -0.35663
+aggregate_height_weight = -0.510066 # original: -0.510066
+completed_lines_weight = 0.660666 # original: -0.760666
+bumpiness_weight = -0.184483 # original: -0.184483
+current_height_weight = 0 # -0.25
+valleys_weight = -0 # 0
+
+if current_height > 20: # 20
+    completed_lines_weight = 4 # 4
+    aggregate_height_weight = -0.710066
+    bumpiness_weight = -0.284483
+    holes_weight = -0.35054
+    valleys_weight = -0.12 # -0.15
+
+------------------------1
+130
+152
+142
+166
+1
+6
+131
+avg: 96.5
